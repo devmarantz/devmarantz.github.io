@@ -3,52 +3,174 @@
 <head>
     <title>Devon Marantz | Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="shortcut icon" type="image/png" href="dm.png"/>
+    
+    <link href="./styles/main.css" rel="stylesheet" type="text/css">
+
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:200, 400" rel="stylesheet">
+
+
 </head>
 <body background="trinitybackground.png">
     
-    <h1>Devon Marantz Portfolio</h1>
-    <hr style="height:3px;border:none;color:#333;background-color:#333;" >
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-VEKV-0XyZY53mzUlLNZHlfhTNUUtRWL5sA2QiNQCGmrxOCaz" alt="devon">
+    <header>
+        <h1>Devon Marantz Portfolio</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#about">About Me</a>
+                </li>
+                <li>
+                    <a href="#blog">Blog</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                    <!-- <ul class="submenu">
+                      <li>
+                          <a href="">LED Matrix</a>
+                      </li>
+                      <li>
+                          <a href="">DC Motor Control System</a>
+                      </li>
+                      <li>
+                          <a href="">FPGA Roulette Game</a>
+                      </li>
+                      <li>
+                          <a href="">File Directory Model</a>
+                      </li>
+                      <li>
+                          <a href="">Smart Grid Model GUI</a>
+                      </li>
+                      <li>
+                          <a href="">Pseudo-Node Attack on Smart Grid</a>
+                      </li>
+                      <li>
+                          <a href="">Towers of Hanoi</a>
+                      </li>
+                      <li>
+                          <a href="">Quadrangle Class Exercise</a>
+                      </li>
+                    </ul> -->
+                </li>
+                <li>
+                    <a href="#resume">Resume</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact Me</a>
+                </li>
+                <li>
+                    <a href="#socialmedia">Social Media</a>
+                </li>
+            </ul>
+        </nav>
 
-    <h2>Directory</h2>
-    <details>
-        <uo>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#blog">Blog</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#linkedin">LinkedIn</a></li>
-            <li><a href="#contact">Contact Me</a></li>
-            <li><a href="#socialmedia">Social Media</a></li>
-        </uo>
-    </details>
+    </header>
 
-    <h2 id="about">About</h2>
-    <summary>
+    <img src="./Devon.JPG" alt="devon" class="centerSplash">
+   
+    <article class="red">
+        <h2 id="about">About</h2>
         <p>I was born in Whittier, California on March 16, 1995.  My parents raised me in Diamond Bar, California and blessed me with three beautiful, younger siblings: Brandon, Nastassia, and Monique.  Being the oldest, I strive for the greatest and do everything in my power to set a good example for my younger siblings.<br><br>
         I graduated from Cal Poly Pomona on June 10th, 2018 with my B.S. in Computer Engineering. <br><br>
         I love surfing, photography, and most of all, music.  Music is an important part of my life.  In my free time you can catch me playing guitar, ukulele, piano, drums, and a variety of other instruments.  I also enjoy dancing and learning about the Polynesian culture.  I’m lucky enough to get to perform and share my talents on the stage with the Ohana Polynesian Dancers.</p>
+    </article>
 
-    </summary>
-
-    <h2 id="blog">Blog</h2>
-    <article>
+    
+    <article class="blue">
+        <h2 id="blog">Blog</h2>
         <p>“The only true wisdom is knowing you know nothing.”– Socrates<br><br>
             I am one who believes that having an open mind to learning is key in order to succeed in life.   I strive for knowledge in all aspects of life and I yearn to use my skills and talents to create a better world not only for myself but for the people around me.</p>
     </article>
 
-    <h2 id="projects">Projects</h2>
-    <a href="ledmatrix.html" target="_break">
-            <img src="LEDIcon.jpg" alt="Led Icon" style="width:42px;height:42px;border:0;">
-          </a>
-    <h2 id="linkedin">LinkedIn</h2>
-    <p>Click <a href="https://www.linkedin.com/in/devon-marantz-4715038b/" target="_blank">here</a> to see my LinkedIn Account</p>
+    <article>
+        <h2 id="projects">Projects</h2>
+        
+        <h3 id = "projectClick">Click the Pictures!</h3>
 
-    <h2 id="contact">Contact Me</h2>
-    <p>Call me at: 909-895-9479</p>
-    
-    <h2 id="socialmedia">Social Media</h2>
-    <p>Social Media</p>
+        <div class="projectIcons">
+            <ul>
+                <li>
+                    <h3>LED Matrix</h3>
+                    <a href="ledmatrix.html" target="_break">
+                            <img src="LEDIcon.jpg" alt="Led Icon" class="iconProject">
+                    </a>
+                </li>
+                <li>
+                    <h3>Smart Grid Model GUI</h3>
+                    <a href="smartgrid.html" target="_break">
+                            <img src="SmartGridIcon.png" alt="Led Icon" class="iconProject">
+                    </a>
+                </li>
+                <li>
+                    <h3>DC Motor Control System</h3>
+                    <a href="dcmotor.html" target="_break">
+                            <img src="DCMotorIcon.jpg" alt="Led Icon" class="iconProject">
+                    </a>
+                </li>
+                <li>
+                    <h3>FPGA Roulette Game</h3>
+                    <a href="fpgaroulette.html" target="_break">
+                            <img src="FPGAIcon.jpg" alt="Led Icon" class="iconProject">
+                        </a>
+                </li>
+        </div>
+    </article>
+
+    <article class='red'>
+        <h2 id="resume">Resume</h2>
+        <a href="DevonMarantz_Resume2019.pdf" download="DevonMarantzResume" target="break">
+            <img src="resume.png" alt="Resume Icon" style="width:180px;height:180px;border:0;" class="center">
+        </a>
+        <h3>Click Me!</h3>
+    </article>
+
+    <article class='blue'>
+        <h2 id="contact">Contact Me</h2>
+        <div class="projectIcons">
+            <ul>
+                <li>    
+                   <a href="mailto:devonmarantz@gmail.com" target="_top">
+                    <img src="GmailIcon.png" alt="Gmail Icon" style="width:120px;height:120px;border:0;">
+                   </a>
+                   <h3>Personal Email</h3>
+                </li>
+                <li>
+                    <a href="mailto:dmarantz@talentpath.com" target="_top">
+                        <img src="WorkEmailIcon.png" alt="Work Email Icon" style="width:120px;height:120px;border:0;">
+                    </a>
+                    <h3>Work Email</h3>
+                </li>
+                <li>
+                    <a href="tel:1-909-895-9479" target="_top">
+                        <img src="PhoneIcon.png" alt="Phone Icon" style="width:120px;height:120px;border:0;">
+                    </a>
+                   <h3>Phone</h3>
+                </li>
+        </div>
+    </article>
+
+    <article>
+        <h2 id="socialmedia">Social Media</h2>
+        <div class="projectIcons">
+                <ul id="socialIcons">
+                    <li>
+                        <a href="https://www.facebook.com/devon.marantz" target="_break">
+                            <img src="facebook.png" alt="Facebook Icon" style="width:60px;height:60px;border:0;">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/devonmmarantz/" target="_break">
+                            <img src="instagram.png" alt="Instagram Icon" style="width:60px;height:60px;border:0;">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/devon-marantz-4715038b/" target="_break">
+                            <img src="linkedin.png" alt="LinkedIn Icon" style="width:60px;height:60px;border:0;">
+                        </a>
+                    </li>
+            </div>
+    </article>
 
 </body>
 </html>

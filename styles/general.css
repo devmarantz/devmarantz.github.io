@@ -1,0 +1,123 @@
+/*Custom CSS*/
+:root {
+    font-size: 16px;
+    line-height: 1.5 em;
+    /* font-family: 'Oswald', sans-serif; */
+    font-family: 'Work Sans', sans-serif;
+}
+
+html, body {
+    margin: 0;
+    /*width: 100%;
+    height: 100%;
+    box-sizing: border-box;*/
+}
+
+p{
+    max-width: 600px;
+    margin: auto;
+    padding: 15px;
+    letter-spacing: 0.35px;
+    font-weight: 400;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.5rem;
+}
+
+.imageContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.imageContainer img{
+    width: 300px;
+    height: 350px;
+    padding: 10px
+}
+
+#SmartGUI{
+    width: 350px;
+}
+
+#DCMotor{
+    width: 524px;
+    height: 394px;
+}
+
+
+.iconProject{
+    width:120px;
+    height:120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+}
+
+.projectIcons ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0px;
+}
+
+#socialIcons{
+    justify-content: center;
+}
+
+#socialIcons li a img{
+    margin: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+/* Project Icon Headers */
+.projectIcons ul li h3, #projectClick{
+    background-color:rgba(156, 38, 38, 0.9);
+    border-radius: 20px 1px 20px 1px;
+    display: block;
+    color: #FFF;
+    text-align: center;
+    /* margin-bottom: 0.5rem; */
+    margin: 0.5rem;
+    margin-top: 2rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+#projectClick{
+    background-color:rgba(45, 45, 117, 0.85);
+}
+
+
+h2{
+    margin: 0;
+    height: 1rem; /* 4 times the height of our base font */
+    /* background-color: #222; */
+    padding: 1rem;
+    color:  #FFF;
+    line-height: 1rem;
+    display: block;
+    text-align: center;
+    box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.2);
+    background: radial-gradient(circle, rgba(0,0,0,0.85), rgba(0,0,0,0.27) 50%)
+}
+
+/* @media all and (max-width: 905px){
+    header{
+      height: 16rem;
+    }
+  } */
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    margin-bottom: 1rem;
+}

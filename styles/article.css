@@ -1,0 +1,25 @@
+article {
+    color:  #FFF;
+
+    
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+article h2{
+     display: block;
+     margin-top: -2rem;
+ }
+
+ article h3{
+     text-align: center;
+ }
+
+.blue{
+    background-color: rgba(45, 45, 117, 0.85);
+}
+
+.red{
+    background-color: rgba(156, 38, 38, 0.9);
+}
+
