@@ -35,6 +35,13 @@ header h1{
     }
 }
 
+
+@media all and (max-width: 376px) {
+    header {
+        height: 20rem;
+    }
+}
+
 @media all and (max-width:460px) {
     header {
       height: 16rem;
